@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: calibri;
+}
+
+
+nav{
+   border-bottom: 3px solid red;
+   padding: 10px;
+   background-color: #000;
+   font-size: 25px;
+   
+      
+   }
+   
+
+   nav li{
+       display: inline-block;
+       
+   }
+   nav a{
+       text-decoration: none;
+       color: #ffffff;
+       margin-left: 20px
+       
+   }
+   
+   nav a:hover{
+       color: #ff3333;
+   }
+   
+   /*/======================================/*/
+   section{
+       height: 750px;
+       /*min-height: 
+       max-height:*/
+       
+   }
+   
+   #ss{
+       background-image: url(../img/montanhas4.jpg);
+       background-repeat: no-repeat;
+       background-size:cover;
+       display: table-cell;
+       vertical-align:middle;
+   }
+   
+   #ts1{
+       font-size:60px;
+       color: white;
+       /*min-width: 
+       max-width:*/
+       width: 50%;
+       margin: 0 auto;
+       text-align: center;
+       line-height: 150px;
+       background-color: #000;
+       opacity: 0.7;
+   }
+   
+   #ss p{
+       padding: 80px 60px;
+       color: white;
+       text-align: justify;
+            
+   }
+   
+   /*/======================================/*/
+   
+   #s2{
+       text-align: center;
+       padding-bottom: 7px;
+              
+   }
+   
+   #s2 h2{
+       font-size: 44px;
+       padding: 63px;
+       
+   }
+   
+   .card{
+    display: inline-block;
+    width: 20%; 
+   }
+   
+   .card img{
+       width: 100%;
+   }
+   
+    /*/======================================/*/
+    
+    footer{
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        height: 33px;
+        font-size: 22px;
+        
+    }
+    
+    footer:hover{
+        color: #ff3333;
+    }

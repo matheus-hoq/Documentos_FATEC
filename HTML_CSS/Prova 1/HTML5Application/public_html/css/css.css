@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: segoe ui;
+}
+
+header{
+    padding: 8px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    
+    
+    
+}
+.a1{
+    padding:15px;
+    text-decoration: none;
+    color: black;
+}
+
+.a3{
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.img1{
+    padding-bottom: 100px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #37cbee;
+    font-size: 28px;
+}
+
+.title1{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-left: 35px;
+}
+
+.sec2{
+    padding: 60px;
+    border-bottom: 3px solid black;
+}
+
+.title2{
+    
+     text-align: right;
+     padding-right: 30px;
+     padding-bottom: 20px;
+     font-size: 38px;
+}
+
+.text1{
+    text-align: center;
+}
+
+
+.tab1{
+    border-bottom: 3px solid black;
+    background-color: #37cbee;
+    padding: 20px 90px;
+}
+
+.title3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.text2{
+    padding-bottom: 25px;
+}
+
+.img2{
+    width: 90%;
+        
+}
+
+.img3{
+    width: 90%;
+}
+
+.img4{
+    width: 90%;
+}
+
+.fig1{
+    text-align: center;
+    padding-right: 25px;
+}
+
+.img5{
+    width:90%;
+    
+    
+}
+
+.tab2{
+    padding: 35px 80px;
+    
+    
+   }
+
+.fig2{
+    text-align: center;
+}
+
+.img6{
+    width: 11%;
+    display:inline-block;
+    
+    
+}
+
+.img6 img{
+    width:100%;
+    padding: 15px 60px;
+}
+
+.text3{
+  
+    text-align: center;
+    padding: 0px 15px; 
+}
+
+.sec3{
+    border-bottom: 3px solid black;
+    padding: 25px 60px;
+}
+
+.title4{
+    text-align: center;
+    font-size: 38px;
+}
+.sec4{
+    background-color: #37cbee;
+}
+.tab3{
+    background-color: #37cbee;
+    padding: 35px 80px;
+    
+}
+
+.img7{
+    width:90%;
+}
+
+.fig3{
+    text-align: center;
+}
+
+.title5{
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+.tab4{
+    padding: 60px 80px;
+}
+
+.text4{
+    padding: 20px 20px;
+    text-align: left; 
+}
+
+.title6{
+    padding-bottom:40px; 
+    font-size: 38px;
+}
+
+footer{
+      padding:10px;
+      padding-left:25px;
+      background-color: black;
+      
+    
+}
+
+.a2{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}

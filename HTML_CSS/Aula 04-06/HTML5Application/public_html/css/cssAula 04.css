@@ -1,0 +1,23 @@
+body{
+     font-family: sans-serif, Arial;
+     margin: 0;
+     padding: 0;
+}
+
+header, main{
+     width:80%;
+     margin: 0 auto;
+     
+   
+}
+
+nav{
+    width:80%;
+    margin: 0 auto;
+    
+}
+
+.x{
+    border: 1px solid #000;
+    
+}
