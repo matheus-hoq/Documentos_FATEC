@@ -3,18 +3,20 @@
 #include <math.h>
 main(){
 	float a,b,c,ma,mh,mg,mp;
-	printf("Digite o 1º valor: ");
+	printf("Digite o 1ï¿½ valor: ");
 	scanf("%f",&a);
-	printf("Digite o 2º valor: ");
+	printf("Digite o 2ï¿½ valor: ");
 	scanf("%f",&b);
-	printf("Digite o 3º valor: ");
+	printf("Digite o 3ï¿½ valor: ");
 	scanf("%f",&c);
-	ma=(a+b+c)/3;
-	mh=3/(1/a+1/b+1/c);
-	mg=pow(a*b*c, 1.0/3);
-	mp=(1*a+2*b+3*c)/6;	
-	printf("Media aritmetica:  %.2f\n",ma);
-	printf("Media harmonica:   %.2f\n",mh);
-	printf("Media geometrica:  %.2f\n",mg);
-	printf("Media ponderada:   %.2f\n",mp);
+
+	ma = (a+b+c)/3;
+	mh = 3/(1/a+1/b+1/c);
+	mg = pow(a*b*c, 1.0/3);
+	mp = (1*a+2*b+3*c)/6;	
+
+	printf("MÃ©dia aritmetica:  %.2f\n",ma);
+	printf("MÃ©dia harmonica:   %.2f\n",mh);
+	printf("MÃ©dia geometrica:  %.2f\n",mg);
+	printf("MÃ©dia ponderada:   %.2f\n",mp);
 	}
