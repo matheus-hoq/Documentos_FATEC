@@ -1,0 +1,48 @@
+o que é?
+
+é a tecnologia de computação na nuvem que oferece a grandes e pequenas empresas a oportunidade de organizar, 
+automatizar e sincronizar cada parte da interação com os consumidores, incluindo marketing, vendas, atendimento ao 
+cliente e suporte.
+
+funções:
+
+integração das informações - a função do CRM é a captação das informações dos clientes e sua integração a 
+um banco de dados unificado. Esses dados, futuramente, poderão ser analisados, distribuídos e utilizados para 
+fins estratégicos e mercadológicos, a critério da companhia.
+
+alinhamento estratégico - com ele, é possível definir metas, elaborar estratégias e implementar ações mais eficientes e 
+satisfatórias quando há um amplo conhecimento sobre o cliente, incluindo as suas preferências, expectativas e hábitos
+
+Pós-venda e fidelização - O CRM viabiliza o desenvolvimento de consumidores fiéis e lucrativos, pois ele armazena, 
+integra e relaciona os dados, gerando uma visão abrangente das características de cada cliente. Com informações consistentes reunidas, 
+você tem uma base de como, quando e por que oferecer novos produtos a ele.
+
+
+como escolher o ideal
+
+Na escolha do CRM ideal, o mais importante é conhecer as necessidades do seu negócio para que o software atenda 
+a todas as suas expectativas. Visando a praticidade, orçamento, suporte técnico, pois alguns casos, os canais de 
+comunicação podem ser limitados, e o atendimento sequer é em português. 
+
+
+
+
+motivo de implantação 
+
+como muitas grandes e tradicionais empresas, a Caloi também precisou se reinventar em plena
+ Era Digital para ver seu negócio continuar prosperando. O desafio aqui era modernizar os sistemas
+ de venda e relacionamento com os clientes e parceiros, transformando a equipe de vendedores em uma
+ linha de frente estratégica. A solução nesse caso foi a implementação das soluções de Sales Cloud e 
+Community Cloud para digitalizar e integrar todos os processos e sistemas do departamento de Vendas e Marketing. 
+
+
+
+impactos
+
+O fato de poder usar a plataforma e ter acessos aos dados em qualquer lugar, a qualquer momento, 
+permitiu um ganho de até 50% mais tempo aos colaboradores para prestar consultoria aos clientes. Hoje, a Caloi 
+oferece também uma plataforma onde seus compradores corporativos podem consultar em tempo real o inventário e 
+estoque da marca, com informações completas sobre cada produto. A interface é de fácil utilização e ainda permite
+ que o cliente acompanhe todas as etapas do ciclo de compras. Para a Caloi, essa automatização representou 
+uma economia enorme de tempo e esforço na operação de conferência e faturamento de pedidos, ampliando a 
+capacidade de atendimento às demandas!

@@ -1,0 +1,36 @@
+O que são os chatbots?
+
+Os chatbots são ferramentas de tempo e resposta quase instantâneo,  basicamente são programas que
+utilizam inteligencia artificial para simular conversas com os usuários das plataformas ou aplicativos.
+atualmente muito utilizadas em comércios online.
+
+é uma espécie de assistente que interage utilizando mensagens de texto automatizadas. 
+
+a utilização dele se tornou muito importante pois ele otimiza os processos por estar sempre disponível dentro da plataforma, o que 
+possivelmente ajuda a melhorar a relação entre o cliente e a empresa
+
+
+tipos de chatbots
+
+podem ser classificados em dois tipos, os chatbots simples que são baseados em regras e os chatbots avançados ou chatbots
+"smart" que são baseados em inteligencia artificial;
+
+os chatbots simples utilizam palavras chave para identificar o que o usuário necessita, que são pré escritas em seu software,
+o problema é que se na mensagem do usuário não possuir nenhuma palavra chave, o software não irá entender, nesse caso o usuário
+teria que refomular sua pergunta
+
+já os chatbots baseados em inteligencia artificial primeiramente registram as palavras escritas pelo usuário para depois processá-las
+e envia sugestões com base na pergunta, lembrando que ele não possui nenhuma resposta pré programada, apenas sugere ao usuário os passos
+a se tomar
+
+
+como funcionam os chatbots
+
+como eu expliquei no slide passado, eles possuem duas lógicas de funcionamento
+
+a primeira usa como base as palavras chave e o padrão de navegação do público, de início é construido um banco de dados com
+perguntas e respostas frequentes, imagens, links entre outras coisas. depois é incorporado no chatbot para que ele consiga ajudar o
+usuário na solução de seus problemas
+
+na segunda lógica, através de um processo de aprendizado, o software utiliza o historico de interações do usuário e fornece as respostas.
+geralmente suas respostas são mais precisas para cada pergunta

@@ -1,0 +1,27 @@
+h1{
+    font-family: verdana, sans-serif;
+    color: aqua;
+    background-color: black;
+    
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+
+.segundo{
+    color: lightblue;
+    text-decoration: overline;
+    text-decoration: underline;
+    font-size: 25px;
+    
+}
+
+.terceiro{
+    color:#3333ff;
+    text-decoration: overline;
+    font-size: 35px;
+}

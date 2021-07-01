@@ -1,0 +1,6 @@
+Id : 20 / Nome: papel foto / Preço: R$20 / Quantidade: 10 / Preço total: R$200.0 
+
+Id : 20 / Nome: papel foto / Preço: R$2 / Quantidade: 10 / Preço total: R$20.0 
+
+Id : 15 / Nome: papel foto / Preço: R$2 / Quantidade: 10 / Preço total: R$20.0 
+

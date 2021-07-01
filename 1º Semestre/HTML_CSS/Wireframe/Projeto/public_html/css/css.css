@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #764bc4;
+    color: #fff;
+}
+
+nav {
+    border-bottom: 3px solid indigo;
+    padding: 8px;
+    background-color: #764bc4;
+    font-size: 20px;
+}
+
+nav .navbar-brand .img {
+    width: 210px;
+    padding: 0px 10px 0px 60px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+    margin: 5px;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #9D8DD8;
+}
+
+main {
+    border-bottom: 3px solid indigo;
+}
+
+main h1 {
+    padding: 40px;
+    text-align: center;
+}
+
+main h2 {
+    padding: 80px;
+    text-align: center;
+}
+
+.hometext {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 23px;
+}
+
+.premio {
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.navbar-brand img {
+    width: 400px;
+    float: left;
+    float: right;
+}
+
+.homeimg {
+    padding-bottom: 25px;
+}
+
+.homeimg1 {
+    padding: 35px;
+}
+
+.titulop {
+    border-top: 1px solid indigo;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    padding: 8px 10px 8px 10px;
+    background-color: #764bc4;
+    border-top: 1px solid indigo;
+    color: white;
+}
+
+@media(min-width: 1000px) {
+    footer {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 999px) {
+    footer {
+        font-size: 11px;
+    }
+}
+
+.posbanner .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.nossaprop{
+    padding: 18px 25px 35px 25px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tituloalim{
+    border-top: 3px solid indigo;
+}
+
+.imgalim1{
+    padding-top: 30px;
+}
+
+.imgalim2{
+    padding-bottom: 30px;
+}
+
+div p{
+    text-align:justify;
+}
+
+#s2{
+    text-align: center;
+    padding-bottom: 7px;
+    padding-bottom: 60px;              
+}
+   
+#s2 h2{
+    font-size: 44px;
+    padding: 63px;       
+}   
+   
+.listafotos{
+    padding: 20px;       
+}
+   
+.espfotos{
+    padding-bottom: 45px;
+}
+   
+.zoom{
+    overflow: hidden;
+}
+   
+.zoom img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+   
+.txtcontato{
+    font-size:20px;
+    padding:20px;      
+}
+   
+.proptitulo{
+       text-align: center;
+       font-size: 21px;
+}
+   
+section h4{
+       text-align:center;
+       padding-bottom: 60px;
+}
+   
+.pqimg1{
+       padding-bottom: 45px;
+}
+   
+.pqimg2{
+       padding-bottom: 30px;       
+}
+   
+.pqestudartitulo{
+       padding: 18px 8px 8px 8px;
+       text-align: center;
+}
+
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+width:10px;
+height: 10px;
+}
+ 
+/* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+::-webkit-scrollbar-track {
+background:#9370DB;
+}
+ 
+/* aqui é a alça da barra, que demonstra a altura que você está na página
+estou colocando uma cor azul clara nela*/
+::-webkit-scrollbar-thumb {
+background: indigo;
+}
