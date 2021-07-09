@@ -1,0 +1,16 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("for_fornecedor", function(table){
+        table.integer('for_id').primary()
+        table.integer('for_produto').notNullable()
+	table.integer('for_cnpj')
+	table.string('for_nome', 45)
+	table.integer('usu_id').notNullable()
+        table.foreign('usu_id').references('usu_id').inTable('usu_usuario')
+    })    
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("for_fornecedor")
+};

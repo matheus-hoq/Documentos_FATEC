@@ -1,0 +1,14 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("cat_categoria", function(table){
+        table.integer('cat_codigo').primary()
+        table.string('cat_descricao', 45)        
+	table.integer('emp_id').notNullable()
+	table.foreign('emp_id').references('emp_id').inTable('emp_empresa')
+    })    
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("cat_categoria")
+};

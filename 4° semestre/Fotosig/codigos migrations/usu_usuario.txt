@@ -1,0 +1,15 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("usu_usuario", function(table){
+        table.integer('usu_id').primary()
+        table.string('usu_email', 45).notNullable()
+        table.string('usu_senha',45).notNullable()
+        table.integer('emp_id').notNullable()
+	table.foreign('emp_id').references('emp_id').inTable('emp_empresa')
+    })
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("usu_usuario")
+};

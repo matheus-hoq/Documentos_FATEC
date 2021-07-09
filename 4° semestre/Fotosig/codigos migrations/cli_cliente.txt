@@ -1,0 +1,16 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("cli_cliente", function(table){
+        table.integer('cli_cpf',12).primary()
+        table.string('cli_nome', 45).notNullable()
+        table.string('cli_sobrenome',45).notNullable()
+        table.enum('cli_sexo', ['M', 'F']).notNullable()
+	table.integer('usu_id').notNullable()
+        table.foreign('usu_id').references('usu_id').inTable('usu_usuario')
+    })
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("cli_cliente")
+};

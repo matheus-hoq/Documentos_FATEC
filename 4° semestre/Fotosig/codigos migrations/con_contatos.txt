@@ -1,0 +1,19 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("con_contatos", function(table){
+        table.integer('con_codigo').primary()
+        table.string('con_descricao', 45)
+        table.enum('con_tipo', ['email', 'celular', 'telefone'])
+	table.integer('cli_cpf', 12)
+        table.foreign('cli_cpf').references('cli_cpf').inTable('cli_cliente')
+	table.integer('for_id')
+        table.foreign('for_id').references('for_id').inTable('for_fornecedor')
+        
+        
+    })
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("con_contatos")
+};

@@ -1,0 +1,16 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("pro_produtos_has_ped_pedidos", function(table){
+        table.integer('pro_produtos', 5).primary()
+        table.foreign('pro_produtos').references('pro_produtos').inTable('pro_produtos')
+	table.integer('ped_pedido', 5).primary()
+        table.foreign('ped_pedido').references('ped_pedido').inTable('ped_pedido')
+	table.decimal('produto_valor')
+	table.integer('produto_quantidade')
+    })    
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("pro_produtos_has_ped_pedidos")
+};

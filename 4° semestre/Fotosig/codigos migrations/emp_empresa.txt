@@ -1,0 +1,12 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("emp_empresa", function(table){
+        table.integer('emp_id').primary()
+        table.string('emp_nome', 45)
+    })    
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("emp_empresa")
+};

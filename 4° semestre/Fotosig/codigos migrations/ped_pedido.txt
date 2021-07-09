@@ -1,0 +1,16 @@
+const Knex = require('knex')
+
+exports.up = function(knex) {
+    return knex.schema.createTable("ped_pedido", function(table){
+        table.integer('ped_pedido', 5).primary()
+        table.tinyInteger('ped_metodo_pagamento').notNullable()
+	table.integer('cli_cpf', 12).notNullable()
+        table.foreign('cli_cpf').references('cli_cpf').inTable('cli_cliente')
+	table.integer('usu_id').notNullable()
+        table.foreign('usu_id').references('usu_id').inTable('usu_usuario')
+    })
+};
+
+exports.down = function(knex) {
+    return knex.schema.dropTable("ped_pedido")
+};
